@@ -3,8 +3,10 @@
   padding: 0px;
   outline: 0px;
   font-family: poppins;
-  background-color: rgb(27 27 25);
   color: white;
+}
+body {
+  background-color: rgb(27 27 25);
 }
 a {
   text-decoration: none;
@@ -63,6 +65,12 @@ a {
   display: flex;
   margin-top: 150px;
 }
+.dream-big {
+  background-image: url(../images/rocket.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
 .dream .illustration {
   width: 50%;
   float: left;
@@ -93,4 +101,91 @@ a {
   margin-top: 50px;
   display: inline-block;
   border-radius: 6px;
+}
+.experience {
+  margin-top: 100px;
+}
+.main-sec {
+  display: flex;
+}
+.left-sec {
+  width: 37%;
+  box-shadow: 0px 0px 14px #06c2ff;
+  border-radius: 10px;
+  margin: 0px auto;
+  padding: 3%;
+}
+.experience h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+.experience .left-sec h2 {
+  font-size: 40px;
+}
+.experience .left-sec h4 {
+  color: #fc6a6d;
+}
+.experience .left-sec P {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.experience .left-sec a {
+  background-image: linear-gradient(#fc6a6d, #fc7a61);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 40px auto;
+  border-radius: 6px;
+  display: inline-block;
+}
+.right-sec {
+  width: 37%;
+  box-shadow: 0px 0px 14px #06c2ff;
+  border-radius: 10px;
+  margin: 0px auto;
+  padding: 3%;
+}
+.right-sec h2 {
+  font-size: 40px;
+}
+.experience .right-sec h4 {
+  color: #fc6a6d;
+}
+.experience .right-sec P {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+  margin-top: 50px;
+}
+.experience .right-sec a {
+  background-image: linear-gradient(#fc6a6d, #dc3918);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 40px auto;
+  border-radius: 6px;
+  display: inline-block;
+}
+.illustra {
+  margin-top: 150px;
+}
+.illustra .fly {
+  width: 40%;
+  margin: auto;
+}
+.illustra .fly img {
+  width: 100%;
+  border-image: linear-gradient(#fc6a6d, #ee310b);
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+footer {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+footer p {
+  text-align: center;
 }
