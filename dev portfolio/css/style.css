@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  font-family: poppins;
+  background-color: rgb(27 27 25);
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.center-box {
+  display: flex;
+  box-shadow: 0px 0px 14px #06c2ff;
+  width: 80%;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding: 70px 30px;
+}
+.text-content {
+  width: 50%;
+  border-radius: 10px;
+}
+.text-content h1.welcome {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.text-content h1.name {
+  font-size: 30px;
+}
+.text-content h1 .spandesign {
+  color: #fc6a6d !important;
+}
+.text-content h4 {
+  margin: 20px 0px;
+  font-weight: 400;
+  color: #fc6a6d !important;
+}
+.text-content p {
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 15px;
+}
+.text-content a.button {
+  background-image: linear-gradient(#fc6a6d, #fc7a61);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 6px;
+}
+.image {
+  width: 50%;
+  float: right;
+}
+.image img {
+  width: 70%;
+  float: right;
+}
+.dream {
+  display: flex;
+  margin-top: 150px;
+}
+.dream .illustration {
+  width: 50%;
+  float: left;
+}
+.dream .illustration img {
+  width: 100%;
+}
+.dream .right-content {
+  width: 50%;
+  margin-right: 100px;
+}
+.dream .right-content h2 {
+  font-size: 40px;
+  color: #fc6a6d;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+.dream .right-content p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.dream .right-content a {
+  background-image: linear-gradient(#fc6a6d, #fc7a61);
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 6px;
+}
